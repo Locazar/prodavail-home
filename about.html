@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - Community & Local Shops</title>
+      <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  <style>
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif
+    }
+    body {
+      background: radial-gradient(circle at 50% center, #fff, #9d7559),
+    radial-gradient(circle at 50% center, #fff, #9d7559);
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      color: #333;
+      line-height: 1.6;
+    }
+    .about-container {
+      background: #fff;
+      max-width: 900px;
+      width: 100%;
+      border-radius: 16px;
+      padding: 30px 40px;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      margin-inline: auto;
+    }
+    h1 {
+      font-weight: 700;
+      color: #244a92;
+      margin-bottom: 20px;
+      font-size: 2.8rem;
+    }
+    p.summary {
+      font-weight: 500;
+      font-size: 1.15rem;
+      max-width: 720px;
+      margin: 0 auto 30px;
+      color: #444;
+    }
+    blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 5px solid #6b8ce3;
+      margin: 40px auto 30px;
+      padding-left: 20px;
+      max-width: 720px;
+      font-size: 1.2rem;
+    }
+    .author {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .author img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #6b8ce3;
+    }
+    .author-info {
+      text-align: left;
+    }
+    .author-info h3 {
+      color: #244a92;
+      font-size: 1.4rem;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+    .stars {
+      color: #f4b30a;
+      font-size: 1.3rem;
+      margin-top: 4px;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 10px;
+      }
+      .about-container {
+        padding: 25px 20px;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      p.summary, blockquote {
+        font-size: 1rem;
+      }
+      .author {
+        flex-direction: column;
+        gap: 12px;
+      }
+      .author-info {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+        <div >
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/logo.png" alt="logo" width="125px"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  <div class="about-container">
+    <h1>About Us</h1>
+    <p class="summary">
+      Our purpose is to empower and support local shops today to ensure the long-term
+      sustainability and prosperity of our community tomorrow. By nurturing local businesses,
+      we create jobs, strengthen economic ties, and build a resilient, vibrant community that thrives together.
+    </p>
+    <blockquote>
+      Professionally, local businesses play a critical role in building sustainable communities by generating employment,
+      increasing property values, and contributing tax revenue to essential community services such as schools and public safety.
+      Small businesses stimulate growth in nearby establishments, creating a dynamic ecosystem that enhances livability and economic health.
+      Engagement in local chambers and community events builds loyalty and stronger relationships, creating a feedback loop of mutual support.
+    </blockquote>
+    <div class="author">
+      <img src="images/rohitjangid.jpeg" alt="Rohit Jangid" />
+      <div class="author-info">
+        <h3>Rohit Jangid</h3>
+        <div class="stars">
+          &#9733;&#9733;&#9733;&#9733;&#9733;
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
